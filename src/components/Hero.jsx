@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/WhatsApp Image 2024-07-09 at 10.26.06 PM.jpeg";
 import { motion } from "framer-motion";
 
 // using framer-motion for animation 
@@ -50,8 +50,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/3 lg:p-8">
-          <div className="flex justify-center">
+          <div className=" flex justify-center">
             <motion.img 
+            className="rounded"
             initial={{x:100,opacity:0}}
             animate={{x:0,opacity:1}}
             transition={{duration: 1, delay:1.2}}
