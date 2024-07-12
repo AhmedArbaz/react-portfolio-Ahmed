@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -27,18 +27,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "A Dance Website Design",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Its fully responsive design that was made by different compatative market designs .",
+    technologies: ["PUG", "CSS", "Javascript", "Node.js"],
+    link:"https://github.com/AhmedArbaz/Dance-Webside"
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      technologies: ["Javascript", "Tailwind Css", "React.js", "MongoDB"],
+      link:"https://github.com/AhmedArbaz/pass_manager_mongoDB"
   },
   {
     title: "Portfolio Website",

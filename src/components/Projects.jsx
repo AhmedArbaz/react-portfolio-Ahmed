@@ -20,13 +20,13 @@ const Projects = () => {
             initial={{opacity:0,x:-100}}
             transition={{duration:1}}
 
-            className="w-full lg:w-1/4">
+            className=" lg:w-1/4">
               <img
                 src={project.image}
-                alt={project.title}
+                alt={project.image}
                 width={150}
                 height={150}
-                className="mb-6 rounded"
+                className="mb-6 rounded w-40 h-40"
               />
             </motion.div>
             <motion.div
@@ -37,6 +37,7 @@ const Projects = () => {
             className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <a href={project.link} className="m-2 text-blue-800 flex mb-4 font-bold text-xl">Project Link</a>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
